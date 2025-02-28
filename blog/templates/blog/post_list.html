@@ -16,17 +16,21 @@
             </strong> </p>
             <h1> <a href = "/"> My Blogs </a></h1>
         </header>
+        {% for post in posts %}
         <article>
             <time>published: 27.02.2025, 12:14</time>
             <h2><a href="">My first post</a></h2>
             <p>In the stillness, whispers of forgotten dreams rise, painting the void with colors of hope and resilience..</p>
         </article>
+        
 
+        
         <article>
             <time>published: 27.02.2025, 12:14</time>
             <h2><a href="">My second post</a></h2>
             <p>Time spirals, weaving moments into memories, as life dances in the delicate balance of chaos and order.</p>
-        </article> 
+        </article>
+            {% endfor %}
         
     </body>
 
